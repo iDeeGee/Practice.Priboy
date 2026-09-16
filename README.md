@@ -16,13 +16,16 @@
 
 ## Структура проекта
 
+```
 practice.priboy/
-├── worker.py # модуль с описанием класса Worker
-├── main.py # главный модуль программы
-├── README.md # основная документация
+├── worker.py # модуль с описанием класса Worker.
+├── main.py # главный модуль программы.
+├── test_worker.py # модуль тестирования.
+├── README.md # основная документация.
 └── docs/
-├── technical.md # техническая документация
-└── user_guide.md # руководство пользователя
+├── technical.md # техническая документация.
+└── user_guide.md # руководство пользователя.
+```
 
 ## Требования к окружению
 
@@ -37,6 +40,8 @@ practice.priboy/
    https://github.com/iDeeGee/Practice.Priboy.git
 2. Запустите главный модуль:
     python main.py
+3. Для запуска модуля тестов test_worker.py выполните:
+    python -m unittest test_worker.py
 
 ## Главное меню приложения
 
